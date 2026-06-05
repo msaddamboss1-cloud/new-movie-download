@@ -1,5 +1,4 @@
-                        
-          <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,13 +31,11 @@
             gap: 15px;
         }
 
-        /* ৪টি আলাদা অ্যাড বক্সের জন্য সুনির্দিষ্ট স্টাইল */
+        /* ৪টি সক্রিয় অ্যাড বক্সের সুনির্দিষ্ট লেআউট */
         .ad-slot-1 {
             width: 100%;
             min-height: 90px;
             background: #0b0f19;
-            border: 1px dashed #22314d;
-            border-radius: 8px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -49,8 +46,6 @@
             width: 100%;
             min-height: 60px;
             background: #0b0f19;
-            border: 1px dashed #22314d;
-            border-radius: 8px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -59,10 +54,8 @@
 
         .ad-slot-3 {
             width: 100%;
-            min-height: 50px;
+            min-height: 60px;
             background: #0b0f19;
-            border: 1px dashed #22314d;
-            border-radius: 8px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -73,8 +66,6 @@
             width: 100%;
             min-height: 90px;
             background: #0b0f19;
-            border: 1px dashed #22314d;
-            border-radius: 8px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -193,7 +184,6 @@
 
         <div class="player-poster-box" onclick="triggerAds()">
             <img class="certificate-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/CBFC_Central_Board_of_Film_Certification_India_logo.png/640px-CBFC_Central_Board_of_Film_Certification_India_logo.png" alt="Movie Certificate">
-            
             <img class="static-play-btn" src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play Button">
         </div>
 
@@ -211,7 +201,16 @@
         </div>
 
         <div class="ad-slot-3">
-            <script src="https://pl29633137.effectivecpmnetwork.com/8c/d5/52/8cd5526bbc8ed8d8d1faee870d489a86.js"></script>
+            <script>
+              atOptions = {
+                'key' : '6cdd3a8d9304961857b7f68c1f329cfd',
+                'format' : 'iframe',
+                'height' : 60,
+                'width' : 468,
+                'params' : {}
+              };
+            </script>
+            <script src="https://www.highperformanceformat.com/6cdd3a8d9304961857b7f68c1f329cfd/invoke.js"></script>
         </div>
 
         <div class="download-title">⚡ Select High-Speed Download Mirror</div>
@@ -240,17 +239,28 @@
         </div>
 
         <div class="ad-slot-4">
-            <script src="https://pl29633141.effectivecpmnetwork.com/5b/82/c4/5b82c4eed3ce453c198cbf871b8c4e62.js"></script>
+            <script>
+              atOptions = {
+                'key' : 'adbd686eb06459400727a01108b0d65c',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+              };
+            </script>
+            <script src="https://www.highperformanceformat.com/adbd686eb06459400727a01108b0d65c/invoke.js"></script>
         </div>
 
     </div>
 
+    <script src="https://pl29633137.effectivecpmnetwork.com/8c/d5/52/8cd5526bbc8ed8d8d1faee870d489a86.js"></script>
+    <script src="https://pl29633141.effectivecpmnetwork.com/5b/82/c4/5b82c4eed3ce453c198cbf871b8c4e62.js"></script>
+
     <script>
-        // আপনার নতুন Adsterra ডাইরেক্ট লিংক
+        // আপনার Adsterra ডাইরেক্ট লিংক
         const adsterraDirectLink = "https://www.effectivecpmnetwork.com/b4tv78kr?key=c8bd8bb28bf007ba73e474ded8b9c1b9";
 
         function triggerAds() {
-            // প্রতিটি ক্লিকে ৩টি নতুন ট্যাবে পপ-আপ অ্যাড খুলবে
             window.open(adsterraDirectLink, '_blank');
             window.open(adsterraDirectLink, '_blank');
             window.open(adsterraDirectLink, '_blank');
