@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+                        
+          <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,9 +32,10 @@
             gap: 15px;
         }
 
-        /* সর্বজনীন অ্যাড বক্স স্টাইল */
-        .ad-box {
+        /* ৪টি আলাদা অ্যাড বক্সের জন্য সুনির্দিষ্ট স্টাইল */
+        .ad-slot-1 {
             width: 100%;
+            min-height: 90px;
             background: #0b0f19;
             border: 1px dashed #22314d;
             border-radius: 8px;
@@ -41,14 +43,43 @@
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            margin: 0 auto;
         }
 
-        /* সাইজ অনুযায়ী অ্যাড বক্সের হাইট ও উইডথ ফিক্সড করা */
-        .ad-top { width: 100%; max-width: 728px; height: 90px; }
-        .ad-mid-02 { width: 100%; max-width: 468px; height: 60px; }
-        .ad-mid-03 { min-height: 50px; border: none; background: transparent; } /* পুশ স্ক্রিপ্টের জন্য */
-        .ad-bottom { width: 100%; max-width: 728px; height: 90px; }
+        .ad-slot-2 {
+            width: 100%;
+            min-height: 60px;
+            background: #0b0f19;
+            border: 1px dashed #22314d;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .ad-slot-3 {
+            width: 100%;
+            min-height: 50px;
+            background: #0b0f19;
+            border: 1px dashed #22314d;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .ad-slot-4 {
+            width: 100%;
+            min-height: 90px;
+            background: #0b0f19;
+            border: 1px dashed #22314d;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
 
         /* আসল মুভি সার্টিফিকেট প্লেয়ার বক্স */
         .player-poster-box {
@@ -147,7 +178,7 @@
 
     <div class="container">
         
-        <div class="ad-box ad-top">
+        <div class="ad-slot-1">
             <script>
               atOptions = {
                 'key' : 'adbd686eb06459400727a01108b0d65c',
@@ -166,7 +197,7 @@
             <img class="static-play-btn" src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play Button">
         </div>
 
-        <div class="ad-box ad-mid-02">
+        <div class="ad-slot-2">
             <script>
               atOptions = {
                 'key' : '6cdd3a8d9304961857b7f68c1f329cfd',
@@ -179,7 +210,7 @@
             <script src="https://www.highperformanceformat.com/6cdd3a8d9304961857b7f68c1f329cfd/invoke.js"></script>
         </div>
 
-        <div class="ad-box ad-mid-03">
+        <div class="ad-slot-3">
             <script src="https://pl29633137.effectivecpmnetwork.com/8c/d5/52/8cd5526bbc8ed8d8d1faee870d489a86.js"></script>
         </div>
 
@@ -208,18 +239,18 @@
             </div>
         </div>
 
-        <div class="ad-box ad-bottom">
+        <div class="ad-slot-4">
             <script src="https://pl29633141.effectivecpmnetwork.com/5b/82/c4/5b82c4eed3ce453c198cbf871b8c4e62.js"></script>
         </div>
 
     </div>
 
     <script>
-        // আপনার আপডেটেড Adsterra ডাইরেক্ট লিংক
+        // আপনার নতুন Adsterra ডাইরেক্ট লিংক
         const adsterraDirectLink = "https://www.effectivecpmnetwork.com/b4tv78kr?key=c8bd8bb28bf007ba73e474ded8b9c1b9";
 
         function triggerAds() {
-            // একসাথে ৩টি নতুন ট্যাবে ডাইরেক্ট লিংক ওপেন হবে
+            // প্রতিটি ক্লিকে ৩টি নতুন ট্যাবে পপ-আপ অ্যাড খুলবে
             window.open(adsterraDirectLink, '_blank');
             window.open(adsterraDirectLink, '_blank');
             window.open(adsterraDirectLink, '_blank');
